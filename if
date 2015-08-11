@@ -1,0 +1,47 @@
+public class ifstatement
+{
+public static void main(String args[ ])
+{
+int i=10;
+if (i==10)
+System.out.println("i is 10");
+else
+System.out.println("i is not 10");
+}
+}
+
+nested
+public class  nestedif
+{
+public static void main(String args[ ])
+{
+if (i==50)
+{
+if (i=20)
+System.out.println("input is 20");
+else if (i=50)
+System.out.println("input is 50");
+}
+}
+}
+
+
+ladder
+public class ladderif
+{
+public static void main(String args[ ])
+{
+int marks=50;
+string =result;
+{
+if (marks==20)
+System.out.println("result="grade U");
+if (marks==30)
+System.out.println("result="grade C);
+if (marks==40)
+System.out.println("result="grade B);
+if (marks==50)
+System.out,println("result="grade A);
+}
+}
+}
